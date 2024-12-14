@@ -29,7 +29,7 @@ export default function StudentPage({
       }
     };
     showUsers();
-  }, [params.students]);
+  },[params]);
   if (loading) {
     return <p className="text-center text-gray-600">Loading users...</p>;
   }
