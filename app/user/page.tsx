@@ -1,30 +1,4 @@
 
-// import React from 'react'
-// import Link from "next/link"
-// export default async function UserPage() {
-
-//     const api = await fetch("https://jsonplaceholder.typicode.com/users")
-//     const data = await api.json()
-//     console.log(data)
-
-// return (
-    
-//     <div>
-//         <h1>User List :</h1>
-//     <ul>
-//         {
-//             data.map((item:any,id:number)=>{
-//                 return(
-//                 <li>
-//                 <Link href={`user/${item.id}`}> {item.name}</Link></li>
-//                 )
-//             })
-//         }
-//     </ul>
-
-//     </div>
-//   )
-// }
 "use client"
 
 import React from 'react'

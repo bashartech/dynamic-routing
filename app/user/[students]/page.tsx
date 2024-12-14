@@ -1,27 +1,4 @@
 
-// import React from 'react'
-
-
-// export default async function UserPage({params}: {params:{students:string}}) 
-
-// {
-//     const api = await fetch(`https://jsonplaceholder.typicode.com/users/${params.students}`)
-//     const data = await api.json()
-//     console.log(data)
-//     console.log(params) 
-//     return( 
-//     <div>
-
-//       <h1>Students Details</h1>
-//       <p>Id : {data.id}</p>
-//       <p>Name : {data.name}</p>
-//       <p>Email : {data.email}</p>
-//       <p>Website : {data.website}</p>
-//       <p>Phone: {data.phone}</p>
-
-//     </div>
-//   )
-// }
 
 "use client"
 
