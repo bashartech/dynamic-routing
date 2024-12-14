@@ -4,12 +4,24 @@ import React, { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import Link from "next/link";
 
+
+interface User {
+    id: number;
+    name: string;
+    email: string;
+    company: {
+      catchPhrase: string;
+    };
+    website: string;
+  phone: string;
+  }
+
 export default function StudentPage({
   params,
 }: {
   params: { students: string };
 }) {
-  const [data, setData] = useState<any>(null);
+  const [data, setData] = useState<User| null>(null);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
