@@ -46,8 +46,9 @@ export default function StudentPage({
     return <p className="text-center text-gray-600">Loading users...</p>;
   }
   if (!data) {
-    return <p className="text-center text-gray-600">User not found.</p>;
+    return <p className="text-center text-gray-600">Use  not found.</p>;
   }
+  
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-100 to-gray-300 flex items-center justify-center px-4">
