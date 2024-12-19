@@ -101,7 +101,7 @@ export default function UserPage() {
           transition={{ delay: 0.5, duration: 0.5 }}
           className="text-center text-gray-600"
         >
-          Total Users: {data.length}
+          Total Users : {data.length}
         </motion.p>
       </div>
     </div>
